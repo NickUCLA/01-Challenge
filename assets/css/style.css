@@ -1,14 +1,15 @@
+/* All elements CSS*/
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-
+/* CSS for the body element*/
 body {
   background-color: #d9dcd6;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
+/* CSS for the header element*/
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -16,41 +17,41 @@ header {
   background-color: #2a607c;
   color: #ffffff;
 }
-
+/* CSS for the h1 element*/
 header h1 {
   display: inline-block;
   font-size: 48px;
 }
-
+/* CSS for the second half of h1 element*/
 header h1 .seo {
   color: #d9dcd6;
 }
-
+/* CSS for the nav element*/
 header nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
   font-size: 20px;
 }
-
+/* CSS for the nav ul element*/
 header nav ul {
   list-style-type: none;
 }
-
+/* CSS for the li element*/
 header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
-
+/* CSS for the <a> element*/
 a {
   color: #ffffff;
   text-decoration: none;
 }
-
+/* CSS for the <p> element*/
 p {
   font-size: 16px;
 }
-
+/* CSS for the div element*/
 .hero {
   height: 800px;
   width: 100%;
@@ -59,7 +60,7 @@ p {
   background-size: cover;
   background-position: center;
 }
-
+/* CSS for the picutres*/
 .float-left {
   float: left;
   margin-right: 25px;
@@ -69,13 +70,13 @@ p {
   float: right;
   margin-left: 25px;
 }
-
+/* CSS for the content*/
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
-
+/* CSS for the section element*/
 .content section {
   margin-bottom: 20px;
   padding: 50px;
@@ -83,16 +84,16 @@ p {
   background-color: #0072bb;
   color: #ffffff;
 }
-
+/* CSS for the img in the section element*/
 .content section img {
   max-height: 200px;
 }
-
+/* CSS for the section h2 element*/
 .content section h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
-
+/* CSS for the section benefits element*/
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -102,23 +103,23 @@ p {
   height: 100%;
   background-color: #2589bd;
 }
-
+/* CSS for the benefits div element*/
 .benefits div {
   margin-bottom: 32px;
   color: #ffffff;
 }
-
+/* CSS for the benefits h3 element*/
 .benefits div h3 {
   margin-bottom: 10px;
   text-align: center;
 }
-
+/* CSS for the benefits div imgage*/
 .benefits div img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
-
+/* CSS for the footer element*/
 footer {
   padding: 30px;
   clear: both;
@@ -126,7 +127,7 @@ footer {
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
 }
-
+/* CSS for the footer h2 element*/
 footer h2 {
   font-size: 20px;
 }
